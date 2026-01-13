@@ -1,8 +1,3 @@
-# Research Skills
-
-Some commonly used research experiences and processes are encapsulated into Agent skills.
-
----
 
 # Medical Imaging AI Literature Review Skill
 
