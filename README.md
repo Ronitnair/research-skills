@@ -1,13 +1,40 @@
+# Research Skills
 
-# Medical Imaging AI Literature Review Skill
+A collection of Claude Code skills for academic research workflows.
 
-A Claude Code skill for writing comprehensive literature reviews in medical imaging AI research.
+## Skills
 
-## Overview
+| Skill | Description | Trigger |
+|-------|-------------|---------|
+| [medical-imaging-review](./medical-imaging-review/) | Write comprehensive literature reviews for medical imaging AI | `/medical-imaging-review`, "review paper", "survey", "综述" |
+| [paper-slide-deck](./paper-slide-deck/) | Generate professional slides from academic papers with auto figure extraction | `/paper-slide-deck paper.pdf` |
 
-This skill provides a systematic workflow for writing survey papers, systematic reviews, and literature analyses on topics like segmentation, detection, and classification in CT, MRI, X-ray imaging.
+## Installation
 
-## Features
+Copy the desired skill folder to your Claude Code skills directory:
+
+```bash
+# For medical-imaging-review
+cp -r medical-imaging-review ~/.claude/skills/
+
+# For paper-slide-deck
+cp -r paper-slide-deck ~/.claude/skills/
+```
+
+Or copy to project-local skills:
+
+```bash
+cp -r medical-imaging-review .agents/skills/
+cp -r paper-slide-deck .agents/skills/
+```
+
+---
+
+## Medical Imaging Review Skill
+
+A systematic workflow for writing survey papers, systematic reviews, and literature analyses on medical imaging AI topics.
+
+### Features
 
 - **Structured 7-phase workflow** for literature review writing
 - **Domain-specific templates** covering multiple medical imaging domains
@@ -15,76 +42,66 @@ This skill provides a systematic workflow for writing survey papers, systematic 
 - **Quality checklists** ensuring completeness
 - **Zotero integration** for reference management
 
-## Installation
+### Supported Domains
 
-Copy this skill folder to your Claude Code skills directory:
+- Coronary Artery Analysis (CCTA)
+- Lung Imaging (CT/X-ray)
+- Brain Imaging (MRI/CT)
+- Cardiac Imaging (MRI/CT/Echo)
+- Pathology (Whole Slide Images)
+- Retinal Imaging (Fundus/OCT)
 
-```
-~/.claude/skills/medical-imaging-review/
-```
-
-## Trigger Keywords
-
-The skill automatically activates when detecting:
-- "review paper"
-- "survey"
-- "literature review"
-- "综述"
-- Mentions of writing academic reviews on deep learning for medical imaging
-
-## Files
+### Files
 
 | File | Description |
 |------|-------------|
 | `SKILL.md` | Main skill definition and quick reference |
 | `WORKFLOW.md` | Detailed 7-phase workflow guide |
-| `TEMPLATES.md` | Project file templates (CLAUDE.md, IMPLEMENTATION_PLAN.md) |
+| `TEMPLATES.md` | Project file templates |
 | `DOMAINS.md` | Domain-specific method categories and datasets |
 
-## Supported Domains
+---
 
-- **Coronary Artery Analysis** (CCTA)
-- **Lung Imaging** (CT/X-ray)
-- **Brain Imaging** (MRI/CT)
-- **Cardiac Imaging** (MRI/CT/Echo)
-- **Pathology** (Whole Slide Images)
-- **Retinal Imaging** (Fundus/OCT)
-- **General Medical Image Segmentation**
+## Paper Slide Deck Skill
 
-## Workflow Phases
+Transform academic papers into professional slide decks with automatic figure extraction and AI-generated visuals.
 
-1. **Project Initialization** - Create project structure and templates
-2. **Literature Collection** - Gather papers via Zotero/web search
-3. **Outline Development** - Define section structure
-4. **Section Writing** - Write each section with standard templates
-5. **Tables and Figures** - Create comparison tables and figure placeholders
-6. **Quality Assurance** - Structure, content, and language checks
-7. **Incremental Updates** - Version control for new literature
+### Features
 
-## Standard Review Structure
+- **Auto figure detection** from PDF papers
+- **Smart figure-to-slide mapping** based on caption analysis
+- **17 visual styles** (academic-paper, sketch-notes, minimal, etc.)
+- **Gemini API integration** for AI slide generation
+- **PPTX/PDF export** with merge scripts
 
-```
-# [Title]: State of the Art and Future Directions
-## Key Points
-## Abstract
-## 1. Introduction
-## 2. Datasets and Evaluation Metrics
-## 3. Deep Learning Methods
-## 4. Downstream Applications
-## 5. Commercial Products & Clinical Translation
-## 6. Discussion
-## 7. Conclusion
-## References
-```
+### Workflow
 
-## Writing Guidelines
+1. Analyze paper and detect figures/tables
+2. Generate outline with auto IMAGE_SOURCE mapping
+3. Extract figures from PDF (or AI-generate)
+4. Apply academic templates
+5. Merge to PPTX/PDF
 
-- Use **hedging language**: "may", "suggests", "appears to"
-- Avoid absolute claims
-- Every claim needs citation support
-- Each method section needs a **Limitations** paragraph
-- Include **comparison tables** for each major section
-- Target **80-120 references** per review
+### Files
+
+| Path | Description |
+|------|-------------|
+| `SKILL.md` | Main skill definition and workflow |
+| `references/` | Analysis framework, templates, style definitions |
+| `scripts/` | Python/TypeScript automation scripts |
+
+### Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `generate-slides.py` | Gemini API image generation |
+| `detect-figures.ts` | PDF figure/table detection |
+| `extract-figure.ts` | PDF page extraction |
+| `apply-template.ts` | Academic figure container template |
+| `merge-to-pptx.ts` | PPTX generation |
+| `merge-to-pdf.ts` | PDF generation |
+
+---
 
 ## License
 
